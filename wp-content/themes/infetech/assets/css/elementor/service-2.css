@@ -1,0 +1,775 @@
+.ova-service-2 {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  position: relative;
+  padding: 50px 110px 70px 50px;
+  background-color: #fff;
+  overflow: hidden;
+  z-index: 3;
+}
+@media (max-width: 767px) {
+  .ova-service-2 {
+    padding: 30px 100px 30px 30px;
+  }
+}
+.ova-service-2:after {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-color: var(--primary);
+  -webkit-transform-origin: right;
+  transform-origin: right;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+}
+.ova-service-2:hover {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+.ova-service-2:hover:after {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+.ova-service-2:hover .icon {
+  transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  background-color: #6c3af0;
+}
+.ova-service-2:hover .icon i, .ova-service-2:hover .icon svg, .ova-service-2:hover .icon path {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  color: #fff;
+  fill: #fff;
+}
+.ova-service-2:hover .square {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+.ova-service-2:hover .title {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  color: #fff;
+}
+.ova-service-2:hover .description {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  color: #e1d6ff;
+}
+.ova-service-2:hover .trapezoid-topleft-1, .ova-service-2:hover .trapezoid-topleft-2 {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+.ova-service-2:hover .trapezoid-topleft-1 {
+  opacity: 0.4;
+  bottom: 0;
+}
+.ova-service-2:hover .trapezoid-topleft-2 {
+  bottom: -44px;
+  opacity: 0.9;
+}
+.ova-service-2:hover .sub-title {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  color: #fff;
+}
+.ova-service-2:hover .service-button {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+.ova-service-2:hover .service-button .text-button {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  font-size: 12px;
+  color: #fff;
+  margin-right: 7px;
+}
+.ova-service-2:hover .service-button i {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  color: #fff;
+}
+.ova-service-2 .square {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background-color: var(--secondary);
+  z-index: 1;
+}
+.ova-service-2 .icon {
+  transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 62px;
+  height: 62px;
+  background-color: #f4ecff;
+  border-radius: 50%;
+  z-index: 3;
+}
+.ova-service-2 .icon i, .ova-service-2 .icon svg, .ova-service-2 .icon path {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  display: inline-flex;
+  position: relative;
+  bottom: -30px;
+  right: -30px;
+  font-size: 58px;
+  width: 1em;
+  height: 1em;
+  color: var(--primary);
+  fill: var(--primary);
+}
+.ova-service-2 .title {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  margin: 0;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 1.2;
+  padding-bottom: 35px;
+  z-index: 3;
+  position: relative;
+}
+.ova-service-2 .description {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+  z-index: 3;
+  position: relative;
+}
+.ova-service-2 .description p {
+  margin: 0;
+}
+.ova-service-2 .trapezoid-topleft-1 {
+  transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  position: absolute;
+  bottom: -20px;
+  left: -89px;
+  width: 89px;
+  height: 150%;
+  opacity: 0;
+  background-color: #7746f1;
+  -webkit-transform-origin: bottom right;
+  transform-origin: bottom right;
+  transform: rotate(30deg);
+  z-index: 2;
+}
+.ova-service-2 .trapezoid-topleft-2 {
+  transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  position: absolute;
+  bottom: -64px;
+  left: -44px;
+  width: 89px;
+  height: 150%;
+  opacity: 0;
+  background-color: #6730fd;
+  -webkit-transform-origin: bottom right;
+  transform-origin: bottom right;
+  transform: rotate(30deg);
+  z-index: 1;
+}
+.ova-service-2 .sub-title {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  position: relative;
+  z-index: 2;
+  display: block;
+  margin-bottom: 6px;
+}
+.ova-service-2 .service-button {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  position: relative;
+  z-index: 2;
+}
+.ova-service-2 .service-button .text-button {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  display: inline-block;
+  font-size: 0;
+  font-weight: 600;
+  color: var(--text);
+  text-transform: uppercase;
+  margin-right: 0;
+}
+.ova-service-2 .service-button i {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  display: inline-flex;
+  font-size: 22px;
+  color: var(--text);
+  vertical-align: middle;
+}
+.ova-service-2.ova-service-2-template2 {
+  padding: 35px 120px 35px 35px;
+}
+.ova-service-2.ova-service-2-template2:hover .triangle-topleft-1, .ova-service-2.ova-service-2-template2:hover .triangle-topleft-2 {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  left: 0;
+  opacity: 1;
+}
+.ova-service-2.ova-service-2-template2 .triangle-topleft-1 {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  position: absolute;
+  top: 0;
+  left: -30px;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  border-top: 144px solid #7746f1;
+  border-right: 80px solid transparent;
+  z-index: 2;
+}
+.ova-service-2.ova-service-2-template2 .triangle-topleft-2 {
+  transition: all 0.55s ease;
+  -moz-transition: all 0.55s ease;
+  -webkit-transition: all 0.55s ease;
+  -o-transition: all 0.55s ease;
+  position: absolute;
+  top: 0;
+  left: -30px;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  border-top: 300px solid #6730fd;
+  border-right: 152px solid transparent;
+  z-index: 1;
+}
+.ova-service-2.ova-service-2-template2 .title {
+  text-transform: uppercase;
+}
+.ova-service-2.ova-service-2-template2 .text_number {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-weight: 200;
+  font-size: 60px;
+  color: #e4e0ee;
+  z-index: 3;
+}
+.ova-service-2.ova-service-2-template3 {
+  padding: 40px;
+  box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.05);
+}
+.ova-service-2.ova-service-2-template3:after {
+  -webkit-transform-origin: left;
+  transform-origin: left;
+}
+.ova-service-2.ova-service-2-template3 .mask {
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0.12;
+  background-position: top right;
+  background-size: auto;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.ova-service-2.ova-service-2-template3 .square {
+  background-color: var(--primary);
+  right: unset;
+  left: 0;
+}
+.ova-service-2.ova-service-2-template3 .icon {
+  position: relative;
+  bottom: unset;
+  right: unset;
+  background-color: transparent;
+  margin-bottom: 35px;
+}
+.ova-service-2.ova-service-2-template3 .icon i {
+  bottom: unset;
+  right: unset;
+}
+.ova-service-2.ova-service-2-template3 .title {
+  font-size: 20px;
+  line-height: 1.3;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.ova-service-2.ova-service-2-template3 .description {
+  padding-bottom: 35px;
+}
+.ova-service-2.ova-service-2-template4 {
+  padding: 45px 55px;
+  box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.05);
+}
+@media (min-width: 1025px) and (max-width: 1520px) {
+  .ova-service-2.ova-service-2-template4 {
+    padding: 40px 30px;
+  }
+}
+@media (max-width: 767px) {
+  .ova-service-2.ova-service-2-template4 {
+    padding: 40px 30px;
+  }
+}
+@media (max-width: 430px) {
+  .ova-service-2.ova-service-2-template4 {
+    padding: 35px 25px;
+  }
+}
+.ova-service-2.ova-service-2-template4:hover .description {
+  color: #fff;
+}
+.ova-service-2.ova-service-2-template4 .service-flex-wrapper {
+  display: flex;
+  column-gap: 30px;
+}
+@media (max-width: 767px) {
+  .ova-service-2.ova-service-2-template4 .service-flex-wrapper {
+    column-gap: 20px;
+  }
+}
+.ova-service-2.ova-service-2-template4 .mask {
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0.12;
+  background-position: top right;
+  background-size: auto;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.ova-service-2.ova-service-2-template4 .square {
+  background-color: transparent;
+}
+.ova-service-2.ova-service-2-template4 .icon {
+  position: relative;
+  bottom: unset;
+  right: unset;
+  background-color: transparent;
+  margin-bottom: 35px;
+}
+.ova-service-2.ova-service-2-template4 .icon i {
+  bottom: unset;
+  right: unset;
+}
+@media (max-width: 767px) {
+  .ova-service-2.ova-service-2-template4 .icon i {
+    font-size: 43px;
+  }
+}
+.ova-service-2.ova-service-2-template4 .title {
+  padding-bottom: 28px;
+}
+.ova-service-2.ova-service-2-template4 .description {
+  font-weight: 400;
+  line-height: var(--line-height);
+  padding-bottom: 26px;
+}
+.ova-service-2.ova-service-2-template5 {
+  text-align: center;
+  padding: 40px 30px;
+  box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.05);
+}
+.ova-service-2.ova-service-2-template5:hover .triangle-topleft {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  opacity: 0.051;
+  background-color: #fff;
+}
+.ova-service-2.ova-service-2-template5 .square {
+  background-color: transparent;
+}
+.ova-service-2.ova-service-2-template5 .icon {
+  position: relative;
+  bottom: unset;
+  right: unset;
+  background-color: transparent;
+  margin-bottom: 24px;
+}
+.ova-service-2.ova-service-2-template5 .icon i {
+  bottom: unset;
+  right: unset;
+  font-size: 60px;
+}
+.ova-service-2.ova-service-2-template5 .sub-title {
+  margin-bottom: 12px;
+}
+.ova-service-2.ova-service-2-template5 .title {
+  font-size: 20px;
+  line-height: 1.5;
+  padding-bottom: 15px;
+}
+.ova-service-2.ova-service-2-template5 .description {
+  padding-bottom: 20px;
+}
+.ova-service-2.ova-service-2-template5 .triangle-topleft {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.039;
+  background-color: var(--primary);
+  -webkit-clip-path: polygon(100% 0, 0 0, 0 100%);
+  clip-path: polygon(100% 0, 0 0, 0 100%);
+}
+.ova-service-2.ova-service-2-template5 .triangle-topleft-3 {
+  width: 33.3%;
+  height: 18.5%;
+  z-index: 3;
+}
+.ova-service-2.ova-service-2-template5 .triangle-topleft-4 {
+  width: 66.6%;
+  height: 33.3%;
+  z-index: 2;
+}
+.ova-service-2.ova-service-2-template5 .triangle-topleft-5 {
+  width: 100%;
+  height: 50%;
+  z-index: 1;
+}
+.ova-service-2.ova-service-2-template6 {
+  padding: 30px 0;
+  border-bottom: 1px solid rgba(29, 23, 41, 0.1);
+}
+.ova-service-2.ova-service-2-template6:hover {
+  border-bottom: 1px solid var(--heading);
+}
+.ova-service-2.ova-service-2-template6:hover .service-button i {
+  background-color: var(--secondary);
+  color: #fff;
+}
+.ova-service-2.ova-service-2-template6:after {
+  background-color: transparent;
+}
+.ova-service-2.ova-service-2-template6 .service-flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.ova-service-2.ova-service-2-template6 .square {
+  background-color: transparent;
+}
+.ova-service-2.ova-service-2-template6 .icon {
+  position: relative;
+  bottom: unset;
+  right: unset;
+  background-color: transparent;
+}
+.ova-service-2.ova-service-2-template6 .icon i {
+  bottom: unset;
+  right: unset;
+  font-size: 62px;
+  color: var(--primary);
+}
+@media (max-width: 767px) {
+  .ova-service-2.ova-service-2-template6 .icon i {
+    font-size: 52px;
+  }
+}
+.ova-service-2.ova-service-2-template6 .sub-title {
+  color: var(--text);
+}
+.ova-service-2.ova-service-2-template6 .title {
+  padding-bottom: 0;
+  color: var(--heading);
+}
+.ova-service-2.ova-service-2-template6 .description {
+  padding-top: 16px;
+  color: var(--text);
+}
+.ova-service-2.ova-service-2-template6 .service-button .text-button {
+  color: var(--text);
+}
+.ova-service-2.ova-service-2-template6 .service-button i {
+  font-size: 18px;
+  color: var(--text);
+  padding: 18px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid rgba(29, 23, 41, 0.1);
+}
+@media (max-width: 767px) {
+  .ova-service-2.ova-service-2-template6 .service-button i {
+    font-size: 16px;
+    padding: 14px;
+  }
+}
+.ova-service-2.ova-service-2-template7 {
+  text-align: center;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 21px 0px rgba(101, 81, 255, 0.07);
+}
+.ova-service-2.ova-service-2-template7:hover .icon {
+  background-color: #7D6DFB;
+}
+.ova-service-2.ova-service-2-template7:hover .icon i {
+  color: #fff;
+}
+.ova-service-2.ova-service-2-template7:hover .service-button {
+  background-color: #fff;
+}
+.ova-service-2.ova-service-2-template7:hover .service-button i {
+  color: var(--primary);
+}
+.ova-service-2.ova-service-2-template7 .icon {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  bottom: unset;
+  right: unset;
+  background-color: #EFC148;
+  margin-bottom: 24px;
+}
+.ova-service-2.ova-service-2-template7 .icon i {
+  bottom: unset;
+  right: unset;
+  font-size: 40px;
+  color: var(--heading);
+}
+.ova-service-2.ova-service-2-template7 .title {
+  font-size: 20px;
+  line-height: 1.5;
+  padding-bottom: 15px;
+}
+.ova-service-2.ova-service-2-template7 .description {
+  padding-bottom: 35px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+.ova-service-2.ova-service-2-template7 .service-button {
+  display: inline-block;
+  padding: 1px 17px;
+  border-radius: 15px;
+  background-color: var(--primary);
+}
+.ova-service-2.ova-service-2-template7 .service-button .text-button {
+  color: var(--heading);
+}
+.ova-service-2.ova-service-2-template7 .service-button i {
+  font-size: 20px;
+  color: #fff;
+}
+.ova-service-2.ova-service-2-template8 {
+  text-align: center;
+  padding: 60px 45px 50px 45px;
+  box-shadow: 0px 11px 22px 0px rgba(0, 0, 0, 0.035);
+}
+.ova-service-2.ova-service-2-template8:after {
+  background-color: #fff;
+}
+.ova-service-2.ova-service-2-template8:hover {
+  box-shadow: 0px 21px 42px 0px rgba(0, 0, 0, 0.07);
+}
+.ova-service-2.ova-service-2-template8:hover .icon {
+  background-color: #FFCB3C;
+}
+.ova-service-2.ova-service-2-template8:hover .service-button .text-button {
+  color: var(--primary);
+}
+.ova-service-2.ova-service-2-template8 .icon {
+  position: relative;
+  bottom: 20px;
+  right: -20px;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  margin-bottom: 35px;
+}
+.ova-service-2.ova-service-2-template8 .icon i {
+  bottom: -20px;
+  right: 20px;
+  font-size: 68px;
+  color: var(--primary);
+}
+.ova-service-2.ova-service-2-template8 .title {
+  font-size: 25px;
+  padding-bottom: 20px;
+  color: var(--heading);
+}
+.ova-service-2.ova-service-2-template8 .description {
+  padding-bottom: 32px;
+  line-height: 1.6;
+  color: var(--text);
+}
+.ova-service-2.ova-service-2-template8 .service-button {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 8px;
+  background-color: transparent;
+}
+.ova-service-2.ova-service-2-template8 .service-button .text-button {
+  font-size: 16px;
+  line-height: 1.1;
+  color: var(--heading);
+  text-transform: none;
+  text-decoration: underline;
+}
+.ova-service-2.ova-service-2-template8 .service-button i {
+  font-size: 10px;
+  color: var(--primary);
+}
+.ova-service-2.ova-service-2-template9 {
+  padding: 45px 35px;
+  border-radius: 6px;
+  box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.05);
+}
+.ova-service-2.ova-service-2-template9:hover .square {
+  background-color: var(--secondary);
+}
+.ova-service-2.ova-service-2-template9:hover .description {
+  color: #fff;
+}
+.ova-service-2.ova-service-2-template9:hover .service-button .plus-icon {
+  border: 1px solid #fff;
+}
+.ova-service-2.ova-service-2-template9:hover .service-button .text-button {
+  color: #fff;
+}
+.ova-service-2.ova-service-2-template9:hover .service-button i {
+  color: #fff;
+}
+.ova-service-2.ova-service-2-template9 .square {
+  background-color: var(--primary);
+  top: calc(100% - 36px);
+  right: -36px;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+}
+.ova-service-2.ova-service-2-template9 .icon {
+  position: relative;
+  bottom: unset;
+  right: unset;
+  justify-content: flex-start;
+  background-color: transparent;
+  margin-bottom: 10px;
+}
+.ova-service-2.ova-service-2-template9 .icon i {
+  font-size: 40px;
+  bottom: unset;
+  right: unset;
+}
+.ova-service-2.ova-service-2-template9 .title {
+  font-size: 26px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.ova-service-2.ova-service-2-template9 .description {
+  padding-bottom: 35px;
+  font-weight: normal;
+}
+.ova-service-2.ova-service-2-template9 .service-button .plus-icon {
+  margin-right: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #ECECEC;
+}
+.ova-service-2.ova-service-2-template9 .service-button .text-button {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: var(--heading);
+}
+.ova-service-2.ova-service-2-template9 .service-button i {
+  font-size: 10px;
+  color: var(--primary);
+}

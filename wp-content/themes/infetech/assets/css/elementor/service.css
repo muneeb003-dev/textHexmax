@@ -1,0 +1,409 @@
+.ova-service {
+  position: relative;
+}
+.ova-service:hover .image-service:before {
+  transition: transform 0.5s ease;
+  -moz-transition: transform 0.5s ease;
+  -webkit-transition: transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transform-origin: bottom center;
+  transform-origin: bottom center;
+}
+.ova-service:hover .image-service img {
+  transition: transform 0.5s ease;
+  -moz-transition: transform 0.5s ease;
+  -webkit-transition: transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+  transform: scale(1.05);
+}
+.ova-service:hover .content-service-wrapper .icon {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  background-color: #fff;
+}
+.ova-service:hover .content-service-wrapper .icon i, .ova-service:hover .content-service-wrapper .icon svg, .ova-service:hover .content-service-wrapper .icon path {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  color: var(--primary);
+  fill: var(--primary);
+}
+.ova-service:hover .content-service-wrapper .content-service:after {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}
+.ova-service:hover .content-service-wrapper .content-service .title {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  color: #fff;
+}
+.ova-service:hover .content-service-wrapper .content-service .description {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  color: #fff;
+}
+.ova-service .image-service {
+  position: relative;
+  overflow: hidden;
+}
+.ova-service .image-service:before {
+  transition: transform 0.5s ease;
+  -moz-transition: transform 0.5s ease;
+  -webkit-transition: transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+  opacity: 0.3;
+  -webkit-transform: scale(1, 0);
+  transform: scale(1, 0);
+  -webkit-transform-origin: top center;
+  transform-origin: top center;
+  z-index: 1;
+}
+.ova-service .image-service img {
+  vertical-align: middle;
+  width: 100%;
+  transition: transform 0.5s ease;
+  -moz-transition: transform 0.5s ease;
+  -webkit-transition: transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+  transform: scale(1);
+}
+.ova-service .content-service-wrapper {
+  position: relative;
+}
+.ova-service .content-service-wrapper .icon {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  position: absolute;
+  top: -70px;
+  right: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  background-color: var(--primary);
+  z-index: 2;
+}
+.ova-service .content-service-wrapper .icon i, .ova-service .content-service-wrapper .icon svg, .ova-service .content-service-wrapper .icon path {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  display: inline-flex;
+  font-size: 48px;
+  width: 1em;
+  height: 1em;
+  fill: #fff;
+  color: #fff;
+  transform: scale(1);
+}
+.ova-service .content-service-wrapper .content-service {
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -20px;
+  padding: 25px 60px;
+  box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.07);
+  z-index: 1;
+}
+@media (max-width: 420px) {
+  .ova-service .content-service-wrapper .content-service {
+    padding: 25px;
+  }
+}
+.ova-service .content-service-wrapper .content-service:after {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-color: var(--primary);
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+}
+.ova-service .content-service-wrapper .content-service .title {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  margin: 0;
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.ova-service .content-service-wrapper .content-service .description {
+  display: block;
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  color: var(--text);
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+.ova-service .content-service-wrapper .content-service .description p {
+  margin: 0;
+}
+.ova-service.ova-service-template2 {
+  text-align: right;
+}
+.ova-service.ova-service-template2 .image-service img {
+  filter: grayscale(100%);
+}
+.ova-service.ova-service-template2 .image-service .triangle-topleft-1 {
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 60%;
+  opacity: 0.5;
+  background: linear-gradient(270deg, var(--primary) 50%, var(--secondary) 100%);
+  clip-path: polygon(100% 0, 0 100%, 0 0);
+}
+.ova-service.ova-service-template2 .image-service .triangle-topleft-2 {
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20%;
+  height: 50%;
+  opacity: 0.5;
+  background: linear-gradient(180deg, var(--primary) 30%, var(--secondary) 100%);
+  clip-path: polygon(0 100%, 100% 100%, 100% 0);
+}
+.ova-service.ova-service-template2 .content-service-wrapper .content-service {
+  top: -90px;
+  right: -70px;
+  max-width: 370px;
+  margin: 0;
+  padding: 30px 45px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 30px;
+  row-gap: 15px;
+}
+@media (max-width: 767px) {
+  .ova-service.ova-service-template2 .content-service-wrapper .content-service {
+    top: -50px;
+    right: 0;
+  }
+}
+@media (max-width: 500px) {
+  .ova-service.ova-service-template2 .content-service-wrapper .content-service {
+    flex-direction: column;
+    padding: 25px;
+  }
+}
+.ova-service.ova-service-template2 .content-service-wrapper .content-service .title {
+  text-align: left;
+}
+.ova-service.ova-service-template2 .content-service-wrapper .content-service a {
+  z-index: 2;
+}
+.ova-service.ova-service-template2 .content-service-wrapper .content-service .icon {
+  position: static;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  min-width: 56px;
+  width: 56px;
+  height: 56px;
+  background-color: var(--secondary);
+  border-radius: 50%;
+}
+.ova-service.ova-service-template2 .content-service-wrapper .content-service .icon i, .ova-service.ova-service-template2 .content-service-wrapper .content-service .icon svg, .ova-service.ova-service-template2 .content-service-wrapper .content-service .icon path {
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  display: inline-flex;
+  font-size: 15px;
+  color: #fff;
+}
+.ova-service.ova-service-template3:hover .content-service-wrapper .content-service {
+  border-bottom: 1px solid var(--secondary);
+}
+.ova-service.ova-service-template3:hover .content-service-wrapper .icon {
+  background-color: var(--secondary);
+}
+.ova-service.ova-service-template3:hover .content-service-wrapper .icon i {
+  color: #fff;
+}
+.ova-service.ova-service-template3:hover .main-icon {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  background-color: var(--secondary);
+}
+.ova-service.ova-service-template3:hover .main-icon i {
+  transition: all 0.3s ease;
+  color: #fff;
+}
+.ova-service.ova-service-template3 .main-icon {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 118px;
+  background-color: #fff;
+  z-index: 2;
+  margin-left: 30px;
+  border-radius: 50px 50px 0 0;
+}
+.ova-service.ova-service-template3 .main-icon i {
+  transition: all 0.3s ease;
+  display: inline-flex;
+  color: var(--primary);
+  font-size: 59px;
+}
+.ova-service.ova-service-template3 .image-service {
+  margin-top: -40px;
+}
+.ova-service.ova-service-template3 .image-service:before {
+  opacity: 0.06;
+}
+.ova-service.ova-service-template3 .content-service-wrapper .content-service {
+  margin: 0;
+  padding: 28px 45px 25px 0;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: none;
+}
+.ova-service.ova-service-template3 .content-service-wrapper .content-service .title {
+  text-align: left;
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+}
+.ova-service.ova-service-template3 .content-service-wrapper .icon {
+  top: unset;
+  bottom: 0;
+  right: 0;
+  width: 45px;
+  height: 45px;
+  background-color: #fff;
+}
+.ova-service.ova-service-template3 .content-service-wrapper .icon i {
+  font-size: 16px;
+  color: var(--primary);
+}
+.ova-service.ova-service-template4:hover .content-service-wrapper .icon {
+  background-color: var(--secondary);
+}
+.ova-service.ova-service-template4:hover .content-service-wrapper .icon i {
+  color: #fff;
+}
+.ova-service.ova-service-template4 .image-service:before {
+  background-color: var(--heading);
+  opacity: 0.7;
+}
+.ova-service.ova-service-template4 .content-service-wrapper .content-service {
+  margin-top: -90px;
+  margin-right: 25px;
+  margin-left: 25px;
+  padding: 70px 30px 30px 30px;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  -webkit-mask-image: url("../../img/elementor/mask-rectangle-service.svg");
+  mask-image: url("../../img/elementor/mask-rectangle-service.svg");
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+@media (max-width: 767px) {
+  .ova-service.ova-service-template4 .content-service-wrapper .content-service {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 60px 25px 25px 25px;
+  }
+}
+.ova-service.ova-service-template4 .content-service-wrapper .content-service .mask {
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0.13;
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.ova-service.ova-service-template4 .content-service-wrapper .content-service .title {
+  margin: 0 0 10px 0;
+  text-align: left;
+  font-size: 22px;
+}
+.ova-service.ova-service-template4 .content-service-wrapper .content-service .description {
+  line-height: 1.6;
+}
+.ova-service.ova-service-template4 .content-service-wrapper .icon {
+  top: -20px;
+  right: 50px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.ova-service.ova-service-template4 .content-service-wrapper .icon i {
+  font-size: 16px;
+}

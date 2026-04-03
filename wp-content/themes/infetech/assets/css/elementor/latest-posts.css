@@ -1,0 +1,67 @@
+.ova-latest-posts .item {
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  display: flex;
+  gap: 15px;
+  padding: 10px;
+  margin: 0 -10px;
+}
+.ova-latest-posts .item:last-child {
+  margin-bottom: 0;
+}
+.ova-latest-posts .item:hover {
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.ova-latest-posts .item:hover .info .post-title a {
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  color: var(--primary);
+}
+.ova-latest-posts .item .media {
+  gap: 15px;
+}
+.ova-latest-posts .item .media a {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+.ova-latest-posts .item .media a img {
+  width: 70px;
+  min-width: 70px;
+  height: 70px;
+  object-fit: cover;
+  object-position: center;
+}
+.ova-latest-posts .item .info {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+.ova-latest-posts .item .info .post-title {
+  margin: 5px 0;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.ova-latest-posts .item .info .post-title a {
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  color: var(--heading);
+}
+.ova-latest-posts .item .info .item-meta {
+  margin: 5px 0;
+  font-size: 12px;
+  color: var(--primary);
+  font-weight: 500;
+  line-height: 1;
+}

@@ -1,0 +1,275 @@
+/*!
+*    ______ _       _   _
+*    |  ____| |     | | (_)
+*    | |__  | | __ _| |_ _  ___ ___  _ __
+*    |  __| | |/ _` | __| |/ __/ _ \| '_ \
+*    | |    | | (_| | |_| | (_| (_) | | | |
+*    |_|    |_|\__,_|\__|_|\___\___/|_| |_|
+*
+*         https://www.flaticon.com
+*/
+
+@font-face {
+    font-family: "flaticon_infetech";
+    src: url("flaticon_infetech.woff2") format("woff2"),
+url("flaticon_infetech.woff") format("woff"),
+url("flaticon_infetech.eot") format("embedded-opentype"),
+url("flaticon_infetech.ttf") format("truetype"),
+url("flaticon_infetech.svg") format("svg")
+}
+
+i[class^="flaticon-infetech-"]:before, i[class*=" flaticon-infetech-"]:before {
+    font-family: flaticon_infetech !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-infetech-cloud-computing:before {
+    content: "\f101";
+}
+.flaticon-infetech-placeholder:before {
+    content: "\f102";
+}
+.flaticon-infetech-envelope:before {
+    content: "\f103";
+}
+.flaticon-infetech-recovery:before {
+    content: "\f104";
+}
+.flaticon-infetech-shield:before {
+    content: "\f105";
+}
+.flaticon-infetech-target:before {
+    content: "\f106";
+}
+.flaticon-infetech-computer:before {
+    content: "\f107";
+}
+.flaticon-infetech-idea:before {
+    content: "\f108";
+}
+.flaticon-infetech-target-1:before {
+    content: "\f109";
+}
+.flaticon-infetech-database:before {
+    content: "\f10a";
+}
+.flaticon-infetech-corporation:before {
+    content: "\f10b";
+}
+.flaticon-infetech-quotation:before {
+    content: "\f10c";
+}
+.flaticon-infetech-communications:before {
+    content: "\f10d";
+}
+.flaticon-infetech-presentation:before {
+    content: "\f10e";
+}
+.flaticon-infetech-gear:before {
+    content: "\f10f";
+}
+.flaticon-infetech-dimensions:before {
+    content: "\f110";
+}
+.flaticon-infetech-plus:before {
+    content: "\f111";
+}
+.flaticon-infetech-minus-sign:before {
+    content: "\f112";
+}
+.flaticon-infetech-blockchain:before {
+    content: "\f113";
+}
+.flaticon-infetech-data-analytics:before {
+    content: "\f114";
+}
+.flaticon-infetech-database-1:before {
+    content: "\f115";
+}
+.flaticon-infetech-data-analytics-1:before {
+    content: "\f116";
+}
+.flaticon-infetech-database-2:before {
+    content: "\f117";
+}
+.flaticon-infetech-phone-call:before {
+    content: "\f118";
+}
+.flaticon-infetech-scribble:before {
+    content: "\f119";
+}
+.flaticon-infetech-medal:before {
+    content: "\f11a";
+}
+.flaticon-infetech-loading:before {
+    content: "\f11b";
+}
+.flaticon-infetech-supply-chain:before {
+    content: "\f11c";
+}
+.flaticon-infetech-digital-product:before {
+    content: "\f11d";
+}
+.flaticon-infetech-box:before {
+    content: "\f11e";
+}
+.flaticon-infetech-quality:before {
+    content: "\f11f";
+}
+.flaticon-infetech-quality-1:before {
+    content: "\f120";
+}
+.flaticon-infetech-network:before {
+    content: "\f121";
+}
+.flaticon-infetech-telephone-call:before {
+    content: "\f122";
+}
+.flaticon-infetech-idea-1:before {
+    content: "\f123";
+}
+.flaticon-infetech-abstract:before {
+    content: "\f124";
+}
+.flaticon-infetech-triangle:before {
+    content: "\f125";
+}
+.flaticon-infetech-abstract-1:before {
+    content: "\f126";
+}
+.flaticon-infetech-nanotechnology:before {
+    content: "\f127";
+}
+.flaticon-infetech-idea-2:before {
+    content: "\f128";
+}
+.flaticon-infetech-shortcut-script-app:before {
+    content: "\f129";
+}
+.flaticon-infetech-innovation:before {
+    content: "\f12a";
+}
+.flaticon-infetech-technology:before {
+    content: "\f12b";
+}
+.flaticon-infetech-connection:before {
+    content: "\f12c";
+}
+.flaticon-infetech-platform:before {
+    content: "\f12d";
+}
+.flaticon-infetech-project:before {
+    content: "\f12e";
+}
+.flaticon-infetech-process:before {
+    content: "\f12f";
+}
+.flaticon-infetech-teamwork:before {
+    content: "\f130";
+}
+.flaticon-infetech-efficacy:before {
+    content: "\f131";
+}
+.flaticon-infetech-process-1:before {
+    content: "\f132";
+}
+.flaticon-infetech-shield-1:before {
+    content: "\f133";
+}
+.flaticon-infetech-diamond:before {
+    content: "\f134";
+}
+.flaticon-infetech-solution:before {
+    content: "\f135";
+}
+.flaticon-infetech-diamond-1:before {
+    content: "\f136";
+}
+.flaticon-infetech-tear:before {
+    content: "\f137";
+}
+.flaticon-infetech-execution:before {
+    content: "\f138";
+}
+.flaticon-infetech-plus-1:before {
+    content: "\f139";
+}
+.flaticon-infetech-shuttle:before {
+    content: "\f13a";
+}
+.flaticon-infetech-right-arrow:before {
+    content: "\f13b";
+}
+.flaticon-infetech-application:before {
+    content: "\f13c";
+}
+.flaticon-infetech-database-3:before {
+    content: "\f13d";
+}
+.flaticon-infetech-servers:before {
+    content: "\f13e";
+}
+.flaticon-infetech-server:before {
+    content: "\f13f";
+}
+.flaticon-infetech-fingerprint:before {
+    content: "\f140";
+}
+.flaticon-infetech-cloud:before {
+    content: "\f141";
+}
+.flaticon-infetech-cyber-attack:before {
+    content: "\f142";
+}
+.flaticon-infetech-hierarchical-structure:before {
+    content: "\f143";
+}
+.flaticon-infetech-hierarchical-structure-1:before {
+    content: "\f144";
+}
+.flaticon-infetech-warning:before {
+    content: "\f145";
+}
+.flaticon-infetech-globe:before {
+    content: "\f146";
+}
+.flaticon-infetech-network-1:before {
+    content: "\f147";
+}
+.flaticon-infetech-cyber-security:before {
+    content: "\f148";
+}
+.flaticon-infetech-checkmark:before {
+    content: "\f149";
+}
+.flaticon-infetech-choice:before {
+    content: "\f14a";
+}
+.flaticon-infetech-telephone:before {
+    content: "\f14b";
+}
+.flaticon-infetech-mobile-app:before {
+    content: "\f14c";
+}
+.flaticon-infetech-servers-1:before {
+    content: "\f14d";
+}
+.flaticon-infetech-infrastructure:before {
+    content: "\f14e";
+}
+.flaticon-infetech-fingerprint-1:before {
+    content: "\f14f";
+}
+.flaticon-infetech-fingerprint-2:before {
+    content: "\f150";
+}
+.flaticon-infetech-mission:before {
+    content: "\f151";
+}
+

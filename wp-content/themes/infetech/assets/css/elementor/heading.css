@@ -1,0 +1,61 @@
+.ova-heading .sub-title {
+  margin: 0 0 15px;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--primary);
+  position: relative;
+  padding-left: 30px;
+}
+.ova-heading .sub-title .underlined {
+  transition: all 0.3s ease;
+  position: absolute;
+  left: 0;
+  bottom: 50%;
+  transform: translateY(-50%);
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 12px;
+  width: 16px;
+  height: 2px;
+  background-color: var(--primary);
+}
+.ova-heading .title {
+  margin: 0;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 1.2;
+}
+.ova-heading .title a {
+  color: var(--heading);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.ova-heading .title a:hover {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: var(--secondary);
+}
+.ova-heading .title span.word {
+  color: var(--primary);
+}
+.ova-heading .description {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
+  color: var(--text);
+  margin-top: 12px;
+}
+.ova-heading .title, .ova-heading .description {
+  white-space: pre-line;
+}
+@media (max-width: 767px) {
+  .ova-heading .title, .ova-heading .description {
+    white-space: normal;
+  }
+}
