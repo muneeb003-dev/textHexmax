@@ -12,12 +12,7 @@
       "destination": "/about",
       "permanent": true
     },
-    {
-      "source": "/about/index",
-      "destination": "/about",
-      "permanent": true
-    }
-  ],
+   ],
   "rewrites": [
     {
       "source": "/index",
