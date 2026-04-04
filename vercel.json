@@ -18,10 +18,5 @@
       "permanent": true
     }
   ],
-  "rewrites": [
-    {
-      "source": "/index",
-      "destination": "/index.html"
-    }
-  ]
+  
 }
