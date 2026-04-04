@@ -3,18 +3,13 @@
   "cleanUrls": true,
   "redirects": [
     {
-      "source": "/index.htm",
-      "destination": "/index",
-      "permanent": true
-    },
-    {
       "source": "/:path*/index.htm",
       "destination": "/:path*",
       "permanent": true
     },
     {
-      "source": "/:slug.htm",
-      "destination": "/:slug",
+      "source": "/:path*/index.html",
+      "destination": "/:path*",
       "permanent": true
     }
   ],
