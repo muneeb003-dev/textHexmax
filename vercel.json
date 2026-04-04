@@ -8,11 +8,16 @@
       "permanent": true
     },
     {
-      "source": "/about/index.htm",
-      "destination": "/about",
+      "source": "/:path*/index.htm",
+      "destination": "/:path*",
       "permanent": true
     },
-   ],
+    {
+      "source": "/:slug.htm",
+      "destination": "/:slug",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/index",
